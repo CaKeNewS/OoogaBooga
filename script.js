@@ -1,10 +1,6 @@
-var boxEle = document.body.querySelector(".box"); 
+var boxEle = document.body.querySelector(".box");
 
-var userInput = prompt("What is your name?");
+var a = Number(prompt("Enter First Number"));
+var b = Number(prompt("Enter Second number"));
 
-var numberOne = 8;
-var numberTwo = 2;
-
-boxEle.innerHTML=numberOne+numberTwo;
-
-boxEle.innerHTML=userInput;
+boxEle.innerHTML=a+b;
